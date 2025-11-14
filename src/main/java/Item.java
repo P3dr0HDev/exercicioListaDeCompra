@@ -1,10 +1,12 @@
 public class Item {
     private String name;
     private int priority;
+    private int price;
 
-    public Item (String name, int priority){
+    public Item(String name, int priority, int price) {
         this.name = name;
         this.priority = priority;
+        this.price = price;
     }
 
     public String getName() {
@@ -21,5 +23,13 @@ public class Item {
 
     public void setPriority(int priority) {
         this.priority = priority;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }
