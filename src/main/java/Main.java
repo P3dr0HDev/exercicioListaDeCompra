@@ -18,7 +18,7 @@ public class Main {
                              1- Adicionar produto
                              2- Remover Produto
                              3- Listar Produtos
-                             4- Checkout
+                             4- 
                              0- sair ==========>
                 =====================================================
                 """);
