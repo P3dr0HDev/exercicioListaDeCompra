@@ -18,7 +18,7 @@ public class Main {
                              1- Adicionar produto
                              2- Remover Produto
                              3- Listar Produtos
-                             4- 
+                             4- Checkout
                              0- sair ==========>
                 =====================================================
                 """);
@@ -64,7 +64,11 @@ public class Main {
     }
 
     static void addItem() {
-        System.out.println("Item: ");
+        System.out.println("""
+                ADICIONE UM ITEM
+                
+                Item: 
+                """);
         String name = sc.nextLine();
         System.out.println("Prioridade: ");
         int priority = sc.nextInt();
@@ -75,7 +79,7 @@ public class Main {
         Item item = new Item(name, priority, price);
         itemList.add(item);
 
-        System.out.println("Item adicionad!");
+        System.out.println("Item adicionado!");
         menu();
     }
 
